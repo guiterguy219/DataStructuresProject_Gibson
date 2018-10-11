@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Stack";
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+
+    ViewBag.MenuItems += "<a href=" + @Url.Action("Index", "Index") + " class=\"w3-bar-item w3-button\">Return to Main Menu</a>";
+}
+<div class="w3-bar w3-light-gray my-subnavbar">
+    <a href="@Url.Action("AddOne", "Stack")" class="w3-bar-item w3-button">Add One Item to Stack</a>
+    <a href="@Url.Action("AddHugeList", "Stack")" class="w3-bar-item w3-button">Add Huge List of Items to Stack</a>
+    <a href="@Url.Action("Display", "Stack")" class="w3-bar-item w3-button">Display Stack</a>
+    <a href="@Url.Action("Clear", "Stack")" class="w3-bar-item w3-button">Delete From Stack</a>
+    <a href="@Url.Action("Clear", "Stack")" class="w3-bar-item w3-button">Clear Stack</a>
+    <a href="@Url.Action("Search", "Stack")" class="w3-bar-item w3-button">Search Stack</a>
+</div>
+<div class="alert-div">
+    @Html.Raw((String)ViewBag.Error)
+</div>
+@Html.Raw((String)ViewBag.Search)
+<br />
+<div class="table-div">
+    @Html.Raw((String)ViewBag.Stack)
+</div>

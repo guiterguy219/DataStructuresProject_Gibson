@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="~/Content/styles.css" />
+    <script src="~/Scripts/main.js"></script>
+</head>
+<body>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large"
+                onclick="w3_close()">
+            Close &times;
+        </button>
+        @Html.Raw((String)ViewBag.MenuItems)
+    </div>
+    <div id="main">
+        <div class="w3-black my-navbar">
+            <button id="openNav" class="w3-button w3-black w3-xlarge" onclick="w3_open()">&#9776;</button>
+            <h2>@ViewBag.Title</h2>
+        </div>
+        @RenderBody()
+    </div>
+</body>
+</html>

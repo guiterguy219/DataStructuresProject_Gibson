@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+
+    ViewBag.MenuItems = "<a href=" + @Url.Action("StackIndex", "Stack") + " class=\"w3-bar-item w3-button\">Stack</a>";
+    ViewBag.MenuItems += "<a href=" + @Url.Action("QueueIndex", "Queue") + " class=\"w3-bar-item w3-button\">Queue</a>";
+    ViewBag.MenuItems += "<a href=" + @Url.Action("DictionaryIndex", "Dictionary") + " class=\"w3-bar-item w3-button\">Dictionary</a>";
+    ViewBag.MenuItems += "<a href=" + @Url.Action("Exit", "Index") + " class=\"w3-bar-item w3-button\">Exit</a>";
+}
