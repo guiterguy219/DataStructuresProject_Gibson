@@ -99,7 +99,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\styles.css" />
     <Content Include="Global.asax" />
-    <Content Include="Graphics\2017-Yamaha-YZF-R6-high-resolution-26.jpg" />
+    <Content Include="Graphics\bg.jpg" />
     <Content Include="Graphics\home.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />

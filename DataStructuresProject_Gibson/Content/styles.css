@@ -1,5 +1,5 @@
 ﻿body {
-    background: linear-gradient(rgba(255, 255, 255,.7), rgba(255, 255, 255,.1)), url(../Graphics/2017-Yamaha-YZF-R6-high-resolution-26.jpg);
+    background: linear-gradient(rgba(255, 255, 255,.7), rgba(255, 255, 255,.1)), url(../Graphics/bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -47,4 +47,8 @@
     flex-direction: row !important;
     justify-content: center !important;
     flex-wrap: wrap;
+}
+
+.searchbar {
+    padding: 25px !important;
 }

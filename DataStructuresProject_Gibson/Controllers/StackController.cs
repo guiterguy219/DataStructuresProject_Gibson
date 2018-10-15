@@ -133,23 +133,7 @@ namespace DataStructuresProject_Gibson.Controllers
          * so (just a simple example). Then display the information in the view. You can pass this 
          * result back to the view in the ViewBag and display it somewhere on the view*/
 
-        /*public ActionResult EnterSearch()
-        {
-            
-            ViewBag.Search = "<div class=\"w3-container w3-deep-orange\">";
-            ViewBag.Search += "<h3> Enter Item to Search </h3>";
-            ViewBag.Search += "</div>";
 
-            ViewBag.Search += "<form class=\"w3-container\">";
-
-            ViewBag.Search += "<p><label class=\"w3-text-dark-gray\"><b>New Entry #:</b></label>";
-            ViewBag.Search += "<input class=\"w3-input w3-border w3-light-grey\" type=\"text\" value=\"Enter an entry number\"></p>";
-
-            ViewBag.Search += "<p><button class=\"w3-btn w3-dark-gray\" formaction=\"@Url.Action(\"Search\", \"Stack\")\">Search</p>";
-            ViewBag.Search += "</form>";
-
-            return View("StackIndex");
-        }*/
         public ActionResult Search()
         {
             if (webStack.Count > 0)
