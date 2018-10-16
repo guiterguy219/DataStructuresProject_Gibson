@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace DataStructuresProject_Gibson.Controllers
 {
-    public class IndexController : Controller
+    public class HomeController : Controller
     {
         // GET: Index
         public ActionResult Index()
         {
-            return View();
+            return View("Index");
         }
 
         public ActionResult Exit()

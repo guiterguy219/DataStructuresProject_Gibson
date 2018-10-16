@@ -3,7 +3,7 @@
     ViewBag.Title = "Stack";
     Layout = "~/Views/Shared/MyLayout.cshtml";
 
-    ViewBag.MenuItems += "<a href=" + @Url.Action("Index", "Index") + " class=\"w3-bar-item w3-button\">Return to Main Menu</a>";
+    ViewBag.MenuItems += "<a href=" + @Url.Action("Index", "Home") + " class=\"w3-bar-item w3-button\">Return to Main Menu</a>";
 }
 <div class="w3-bar w3-light-gray my-subnavbar">
     <a href="@Url.Action("AddOne", "Stack")" class="w3-bar-item w3-button">Add One Item to Stack</a>

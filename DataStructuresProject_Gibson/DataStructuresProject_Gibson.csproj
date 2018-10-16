@@ -100,7 +100,7 @@
     <Content Include="Content\styles.css" />
     <Content Include="Global.asax" />
     <Content Include="Graphics\bg.jpg" />
-    <Content Include="Graphics\home.jpg" />
+    <Content Include="Graphics\middle-pic1.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -123,6 +123,7 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="Properties\PublishProfiles\DataStructuresProjectGibson20181016091437 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
@@ -152,7 +153,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DictionaryController.cs" />
-    <Compile Include="Controllers\IndexController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\QueueController.cs" />
     <Compile Include="Controllers\StackController.cs" />
     <Compile Include="Global.asax.cs">
@@ -167,7 +168,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.0.0.min.map" />
-    <Content Include="Views\Index\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Dictionary\DictionaryIndex.cshtml" />
     <Content Include="Views\Stack\StackIndex.cshtml" />
     <Content Include="Views\Queue\QueueIndex.cshtml" />
