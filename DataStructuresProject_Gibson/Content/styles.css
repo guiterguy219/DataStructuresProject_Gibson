@@ -24,6 +24,7 @@
 .table-div {
     align-self: center !important;
     width: 70vw !important;
+    z-index: 3;
 }
 
 .alert-div {
@@ -51,4 +52,12 @@
 
 .searchbar {
     padding: 25px !important;
+}
+
+.mid-image {
+    position: absolute;
+    top: 40vh;
+    width: 200px !important;
+    align-self: center;
+    z-index: 1;
 }
